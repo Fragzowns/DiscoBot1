@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
+    if (message.content === 'Fragz') {
+    	message.channel.send('Your one and only....');
   	}
 });
 
@@ -18,4 +18,4 @@ client.on('message', message => {
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.NDE5MTk4Mzc1MDE2MDA1NjQy.DYyClA.VmV2E3da0abpdiNNXulU26wueCE);
