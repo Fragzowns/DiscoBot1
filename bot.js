@@ -23,6 +23,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Duck') {
+    	message.reply('That guy who streams... Yeah.
+  	}
+});
 
-// THIS  MUST  BE  THIS  WAY
+//THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
